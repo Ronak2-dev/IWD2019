@@ -19,21 +19,69 @@
 	{
 		width: 960px;
 		height: auto;
-		mask: 0 auto;
+		margin: 0 auto;
 	}
 	#logoArea
 	{
 		width: 300px;
 		height: 100px;
-		background-image: url(1.png);
+		float: left;
+		color: white
+	}
+	#navArea
+	{
+		width: 660px;
+		height: 100px;
+		float: right;
+	}
+	#nav
+	{
+		list-style: none;
+		margin-top: 30px;
+	}
+	#nav a
+	{
+		color: white;
+		text-decoration: none;
+	}
+	#nav li
+	{
+		float: left;
+		margin-left: 30px;
+		background-color: #252525;
+		padding-top: 8px;
+		border: 1px solid silver;
+		border-radius: 5px;
+	}
+	#nav li:hover
+	{
+		background-color: gray;
+	}
+	.page
+	{
+		background-color:white;
+		padding: 20px
+		color:black;
+	}
+	#footer
+	{
+		background-color: black;
+		height: 40px;
+		width: 100%;
+		color: white;
+		padding: 20px;
 	}
 	</style>
 </head>
 <body>
 	<div id="header">
 		<div class="container">
-			<div id="logoArea"></div>
-			<div id="navArea"></div>
+			<div id="logoArea">
+				<h1>
+			Ronak's Site
+			</h1>
+		</div>
+			<div id="navArea">
 			<ul id="nav">
 				<a href="#"><li>Home</li></a>
 				<a href="#"><li>Products</li></a>
@@ -43,6 +91,22 @@
 
 			</ul>
 		</div>
+		</div>
+		</div>
+		<div id="mainArea">
+			<div class="container page">
+				<h2>Get Rich Quick</h2>
+					<p>Ponzi schemes can be extremly illegal and used as a farce.</p>
+				<h2>Get Rich Quick</h2>
+					<p>Ponzi schemes can be extremly illegal and used as a farce.</p>
+				<h2>Get Rich Quick</h2>
+					<p>Ponzi schemes can be extremly illegal and used as a farce.</p>
+				<h2>Get Rich Quick</h2>
+					<p>Ponzi schemes can be extremly illegal and used as a farce.</p>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="container">2011-Site maintained by Ronak Arun
 		</div>
 </body>
 </html>
