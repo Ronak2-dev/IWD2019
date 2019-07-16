@@ -1,5 +1,6 @@
 body{
-
+	margin-bottom: 80px;
+	background-color: rgb(128, 128, 128);
 }
 
 .page-header{
@@ -15,4 +16,15 @@ body{
 		background-color: rgb(0,255,255);
 		color: white;
 		font-family: 'Open Sans Condensed', sans-serif;
+	}
+.featuredImg{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.col-md-3{
+	border:2px solid silver;
+	margin-bottom: 10px;
+}
+img{
+	border-radius: 25px;
 }
