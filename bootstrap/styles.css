@@ -22,14 +22,24 @@ body{
 	margin-bottom: 15px;
 }
 .col-md-3{
-	border:2px solid silver;
+	border:2px solid silver; 
 	margin-bottom: 10px;
 	color:white;
+	padding-bottom: 10px;
 }
 .featuredImg{
 	border-radius: 25px;
-	width: 75%
+	width: 75%;
 }
 .img1{
-	width: 75%
+	width: 75%;
+}
+.img2{
+	width: 75%;
+}
+.img3{
+	width: 75%;
+}
+.img4{
+	width: 75%;
 }
