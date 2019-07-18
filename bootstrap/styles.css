@@ -1,6 +1,6 @@
 body{
 	margin-bottom: 80px;
-	background-color: rgb(128, 128, 128);
+	background-color: rgb(25, 25, 112);
 }
 
 .page-header{
@@ -24,7 +24,12 @@ body{
 .col-md-3{
 	border:2px solid silver;
 	margin-bottom: 10px;
+	color:white;
 }
-img{
+.featuredImg{
 	border-radius: 25px;
+	width: 75%
+}
+.img1{
+	width: 75%
 }

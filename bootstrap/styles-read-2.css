@@ -1,0 +1,26 @@
+body{
+	margin-bottom: 80px;
+}
+
+.page-header{
+	margin-top: 0;
+}
+.panel-body{
+	padding-top: 0;
+}
+.featuredImg{
+	width: 100%;
+	height: auto;
+}
+.img1{
+	width: 50%;
+	height:50%;
+}
+.img2{
+	width: 50%;
+	height:50%;
+}
+.img3{
+	width: 50%;
+	height:50%;
+}
