@@ -43,3 +43,12 @@ body{
 .img4{
 	width: 75%;
 }
+
+.nav navbar-nav navbar-right
+{
+	width: 60% !important;
+}
+.col-md-3
+{
+	height:300px !important;
+}
